@@ -1,5 +1,11 @@
+import 'primeicons/primeicons.css';
+import 'primereact/resources/themes/nova-dark/theme.css';
+import 'primereact/resources/primereact.css';
+
 import React, { useState } from 'react'
 import PropTypes from 'prop-types';
+import { InputText } from 'primereact/inputtext';
+
 
 export const AddCategory = ({ setCategories }) => {
 
@@ -17,11 +23,15 @@ export const AddCategory = ({ setCategories }) => {
 
     return (
         <form onSubmit={ handleSubmit }>
-            <input
-                type="text"
-                value={ inputValue }
-                onChange={ handleInputChange }
-            />
+            <span className="p-float-label">
+                <InputText
+                    id="float-input"
+                    type="text"
+                    value={ inputValue }
+                    onChange={ handleInputChange }
+                />
+                <label htmlFor="float-input">Search</label>
+            </span>
         </form>
     )
 }
