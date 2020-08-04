@@ -1,7 +1,3 @@
-import 'primeicons/primeicons.css';
-import 'primereact/resources/themes/nova-dark/theme.css';
-import 'primereact/resources/primereact.css';
-
 import React, { useState } from 'react'
 import PropTypes from 'prop-types';
 import { InputText } from 'primereact/inputtext';

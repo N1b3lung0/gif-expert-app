@@ -20,15 +20,10 @@ input {
 
 .card {
     align-content: center;
-    border: 1px solid grey;
     border-radius: 6px;
     margin: 0 10px 10px 0;
     overflow: hidden;
     text-align: center;
-}
-
-.card p {
-    padding: 5px;
 }
 
 .card img {

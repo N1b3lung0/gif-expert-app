@@ -1,4 +1,3 @@
-import 'primeicons/primeicons.css';
 import 'primereact/resources/themes/nova-dark/theme.css';
 import 'primereact/resources/primereact.css';
 
@@ -13,7 +12,7 @@ export const GifGridItem = ({ id, title, url}) => {
 
     return (
         <Card
-            title={ title }
+            subTitle={ title }
             style={{width: '360px'}}
             className="ui-card-shadow card animate__animated animate__fadeIn"
             header={header}
