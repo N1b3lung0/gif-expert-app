@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing GifGridItem should show the component Card correctly 1`] = `
+<div
+  className="p-card p-component"
+  style={null}
+>
+  <div
+    className="p-card-header"
+  >
+    <img
+      alt="titulo"
+      src="https://localhost/imagen.jpg"
+    />
+  </div>
+  <div
+    className="p-card-body"
+  >
+    <div
+      className="p-card-subtitle"
+    >
+      titulo
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Testing GifGridItem should show the component GifGridItem correctly 1`] = `
+<Card
+  className="ui-card-shadow card animate__animated animate__fadeIn"
+  footer={null}
+  header={
+    <img
+      alt="titulo"
+      src="https://localhost/imagen.jpg"
+    />
+  }
+  id={null}
+  style={
+    Object {
+      "width": "360px",
+    }
+  }
+  subTitle="titulo"
+  title={null}
+/>
+`;
