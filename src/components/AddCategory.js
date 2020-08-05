@@ -35,3 +35,10 @@ export const AddCategory = ({ setCategories }) => {
 AddCategory.propTypes = {
     setCategories: PropTypes.func.isRequired
 }
+
+InputText.propTypes = {
+    id: PropTypes.string.isRequired,
+    type: PropTypes.string.isRequired,
+    value: PropTypes.string.isRequired,
+    onChange: PropTypes.func.isRequired
+}

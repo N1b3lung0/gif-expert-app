@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing AddCategory component should show the AddCategory component correctly 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <span
+    className="p-float-label"
+  >
+    <InputText
+      id="float-input"
+      keyfilter={null}
+      onChange={[Function]}
+      onInput={null}
+      onKeyPress={null}
+      tooltip={null}
+      tooltipOptions={null}
+      type="text"
+      validateOnly={false}
+      value=""
+    />
+    <label
+      htmlFor="float-input"
+    >
+      Search
+    </label>
+  </span>
+</form>
+`;
+
+exports[`Testing AddCategory component should show the InputText component correctly 1`] = `
+<input
+  className="p-inputtext p-component"
+  id="id"
+  onChange={[MockFunction]}
+  onInput={[Function]}
+  onKeyPress={[Function]}
+  type="text"
+  value=""
+/>
+`;
